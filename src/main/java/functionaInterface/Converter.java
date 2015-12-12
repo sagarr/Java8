@@ -1,6 +1,8 @@
+package functionaInterface;
+
 @FunctionalInterface
 public interface Converter<F, T> {
 
-	public T convert(F from);
+    public T convert(F from);
 
 }

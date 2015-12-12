@@ -1,11 +1,15 @@
+package annotations;
+
 import java.lang.annotation.Repeatable;
 
 @interface Hints {
+
     Hint[] value();
 }
 
 @Repeatable(Hints.class)
 @interface Hint {
+
     String value();
 }
 
@@ -16,8 +20,8 @@ class Person {
 }
 
 public class AnnotationMain {
-	
-	public static void main(String[] args) {
-		System.out.println(Person.class.getAnnotationsByType(Hint.class));		
-	}
+
+    public static void main(final String[] args) {
+        System.out.println(Person.class.getAnnotationsByType(Hint.class));
+    }
 }
