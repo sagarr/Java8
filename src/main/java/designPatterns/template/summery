@@ -1,0 +1,4 @@
+public abstract classes are harmful
+=> behaviors are encoded in inheritance tree
+
+use function composition instead! 
