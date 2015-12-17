@@ -1,0 +1,1 @@
+factories are just a way to do a partial application in order to create class instance.
