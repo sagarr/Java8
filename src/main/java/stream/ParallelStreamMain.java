@@ -16,6 +16,7 @@ public class ParallelStreamMain {
         System.out.println("Time taken in millis: " + Duration.between(start, stop).toMillis());
     }
 
+    @SuppressWarnings("unused")
     private static Double findImperatively(final List<String> cities) {
         // find all temps
         final List<Double> temps = new ArrayList<>();
